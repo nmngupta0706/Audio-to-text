@@ -1,0 +1,12 @@
+//Installation required for functioning the program
+
+step1: python speech recognition module:
+	pip install speechrecognition 
+
+step2: pip install pyaudio
+
+step3: pyttsx3 module -> pip install pyttsx3
+
+step4:  import the libraRY then initialize it using init() function -> init(driverName string, debug bool)
+
+step5: after initialization,using say() function -> say(text unicode, name string) 
